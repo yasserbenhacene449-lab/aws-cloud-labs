@@ -44,6 +44,7 @@ Deconstructing how operational and administrative responsibilities are split bet
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a89b49f3-bb50-49fa-9099-0a877945bcf7" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67888ebb-05fc-4507-b6c5-c7757dbc1ac1" />
 <img width="609" height="178" alt="image" src="https://github.com/user-attachments/assets/b5c14972-27f7-42ec-beec-f2eefeaeea8f" />
+
 Welcome to AWS Cloud Practitioner Essentials. In this initial section of the training, you begin with a foundational understanding of cloud computing and how the cloud revolutionizes the way businesses operate. By the end of this first set of lessons, you will be familiar with the core concepts, benefits, and shared responsibilities of cloud computing.
 
 In this lessonوwill learn how to do the following:
