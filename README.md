@@ -43,5 +43,25 @@ Deconstructing how operational and administrative responsibilities are split bet
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/719cb1ab-4d4f-484c-8249-c5aca9e5693c" />
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a89b49f3-bb50-49fa-9099-0a877945bcf7" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67888ebb-05fc-4507-b6c5-c7757dbc1ac1" />
+<img width="609" height="178" alt="image" src="https://github.com/user-attachments/assets/b5c14972-27f7-42ec-beec-f2eefeaeea8f" />
+Welcome to AWS Cloud Practitioner Essentials. In this initial section of the training, you begin with a foundational understanding of cloud computing and how the cloud revolutionizes the way businesses operate. By the end of this first set of lessons, you will be familiar with the core concepts, benefits, and shared responsibilities of cloud computing.
+
+In this lessonوwill learn how to do the following:
+The AWS Cloud Practitioner Coffee Shop
+
+In this training, we use a coffee shop analogy to help you better understand basic cloud concepts. To explore the coffee shop and learn more about your instructors, review each of the following four numbered markers below the graphic.
+
+<img width="776" height="443" alt="image" src="https://github.com/user-attachments/assets/1014c41a-d293-4a8a-8923-e79ea988034e" />
+1. Coffee shop connections
+In the video, we used the example of a customer ordering a cup of coffee to help explain how a client-server model works.
+As this training progresses, you will continue to see comparisons between elements of a coffee shop and cloud computing functions. For example, you will explore how different AWS compute instances are kind of like the different types of coffee machines in a coffee shop. Each machine is workload-specific to better serve its customers.
+2. Alan Meridian
+Alan Meridian is a tech lead with AWS Training & Certification. When he is not drawing networking diagrams, Alan is likely playing ukulele or crocheting small animals. His favorite AWS service is the Amazon Virtual Private Cloud (Amazon VPC).
+3. Morgan Willis
+Morgan is a Principal Cloud Technologist at AWS. Outside of work, Morgan enjoys hiking, skiing, and gardening. Morgan's favorite AWS service is AWS Lambda.
+4. Rudy Chetty
+Rudy Chetty works with AWS Partners. He likes to make people laugh and has acted in a few short films with his producer friend. He's even been in a pizza ad. Rudy loves sports and has played just about everything, including cricket, rugby, soccer, and badminton. Rudy's favorite AWS service is Amazon Simple Storage Service (Amazon S3).
+
+
 
 
