@@ -1,4 +1,4 @@
-# learning-AWS
+# aws-cloud-labs
 # 🌐 AWS Cloud Foundations - Architectural Notes & Core Concepts
 
 This repository contains a comprehensive engineering summary and analysis of core cloud computing concepts and infrastructures. It is structured as a technical reference to demonstrate a deep, foundational understanding of modern cloud environments and how they compare to traditional infrastructure.
