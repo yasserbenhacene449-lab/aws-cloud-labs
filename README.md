@@ -67,5 +67,38 @@ Morgan is a Principal Cloud Technologist at AWS. Outside of work, Morgan enjoys 
 4. Rudy Chetty
 Rudy Chetty works with AWS Partners. He likes to make people laugh and has acted in a few short films with his producer friend. He's even been in a pizza ad. Rudy loves sports and has played just about everything, including cricket, rugby, soccer, and badminton. Rudy's favorite AWS service is Amazon Simple Storage Service (Amazon S3).
 
+Defining cloud computing
+
+To review the definition of cloud computing, review the following four numbered markers and their descriptions below the graphic.
+
+<img width="1226" height="529" alt="image" src="https://github.com/user-attachments/assets/a77bb221-4724-4c4d-8925-bb18ef85462b" />
+
+On-demand delivery: On-demand delivery means that customers can access computing resources, such as storage or compute power, within seconds and as needed. Users can scale their resource usage up or down based on current requirements without lengthy provisioning processes.
+
+"of IT resources": The of IT resources aspect highlights the wide array of information technology assets in the cloud-computing space. These resources include servers, storage solutions, databases, networking components, artificial intelligence and machine learning (AI/ML) tools, and more. Customers can use these resources to build, deploy, and manage applications and services through the cloud infrastructure.
+
+"over the internet": Over the internet signifies that cloud computing delivers IT resources through internet connectivity. This means that users access and use these resources through web-based services rather than maintaining local hardware or software. The internet acts as the conduit, which provides remote access to compute power, storage, and applications from anywhere in the world.
+
+"with pay-as-you-go-pricing": Flexible pricing is a fundamental economic aspect of cloud computing. Users pay only for the resources they actually consume, rather than committing to fixed, long-term contracts. This usage-based pricing model offers cost efficiency and financial flexibility.
+
+<img width="1284" height="414" alt="image" src="https://github.com/user-attachments/assets/a06ad3f9-509d-4f3f-94af-9d84c7233a45" />
+ cloud deployment types 
+
+ In a cloud-based deployment model, you have the flexibility to migrate your existing resources to the cloud, design and build new applications within the cloud environment, or use a combination of both.
+
+For instance, a company might migrate data resources to the cloud, then develop an application comprised of virtual servers, databases, and networking components entirely hosted in the cloud. 
+
+Deploying resources on premises using virtualization and resource management tools does not provide many of the benefits of cloud computing. However, it is sometimes sought for its ability to provide dedicated resources and low latency.
+
+In most cases this deployment model is the same as legacy IT infrastructure while using application management and virtualization technologies to try increasing resource utilization.
+
+In a hybrid deployment, cloud-based resources and on-premises infrastructure work together. This approach is ideal for situations where legacy applications must remain on premises due to maintenance preferences or regulatory requirements.
+
+For instance, a company might choose to retain certain regulated legacy applications on-premises while using cloud services for advanced data processing and analytics. 
+
+Multi-cloud deployments can also be considered hybrid deployments.
+
+
+  
 
 
