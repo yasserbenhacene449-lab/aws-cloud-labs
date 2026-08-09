@@ -100,6 +100,41 @@ For instance, a company might choose to retain certain regulated legacy applicat
 
 Multi-cloud deployments can also be considered hybrid deployments.
 
+ six key benefits of cloud computing, which are:
+
+ Trade fixed expense for variable expense
+By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
+
+<img width="809" height="268" alt="image" src="https://github.com/user-attachments/assets/4c35627f-71a1-412c-89d4-0d96a4582e75" />
+
+Benefit from massive economies of scale
+Like buying a product in bulk can result in lower prices per unit, the vast global infrastructure of AWS can result in lower costs for customers. This means that AWS can be used by many organizations, from small startups to major corporations. Businesses big and small can access advanced technologies that were previously only accessible to large enterprises.
+
+<img width="761" height="352" alt="image" src="https://github.com/user-attachments/assets/c9b51b01-7edb-4768-adbc-39bcdb72ed79" />
+
+
+Stop guessing capacity
+Customers can dynamically scale AWS Cloud resources up or down based on real-time demand. This means businesses can achieve optimal performance without provisioning more or less infrastructure than they need.
+
+<img width="884" height="423" alt="image" src="https://github.com/user-attachments/assets/674cb5da-4ff3-4488-b0af-d2d2e0010ff7" />
+
+
+Increase speed and agility
+With the cloud, businesses can rapidly deploy applications and services, accelerating time to market and facilitating quicker responses to changing business needs and market conditions.
+
+<img width="857" height="371" alt="image" src="https://github.com/user-attachments/assets/00f7e8ac-d496-4637-a95e-bdf9dc2706a4" />
+
+
+Stop spending money to run and maintain data centers
+The AWS Cloud eliminates the need for businesses to invest in physical data centers. This means customers aren't required to spend time and money on utilities and ongoing maintenance. With AWS taking care of the physical infrastructure of the cloud, customer resources can be reallocated to more strategic initiatives.
+
+<img width="874" height="264" alt="image" src="https://github.com/user-attachments/assets/7362c553-9564-4d79-82d8-a4be5fa7dff7" />
+
+
+Go global in minutes
+Businesses don't need to set up their own infrastructure to expand internationally. AWS provides a robust global infrastructure that customers can use to deploy applications and services across multiple areas in minutes.
+
+<img width="930" height="348" alt="image" src="https://github.com/user-attachments/assets/eb27bbab-8205-4236-ad85-0fd0945cf836" />
 
   
 
