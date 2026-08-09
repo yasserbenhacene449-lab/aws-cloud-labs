@@ -54,14 +54,17 @@ In this training, we use a coffee shop analogy to help you better understand bas
 <img width="776" height="443" alt="image" src="https://github.com/user-attachments/assets/1014c41a-d293-4a8a-8923-e79ea988034e" />
 1. Coffee shop connections
 In the video, we used the example of a customer ordering a cup of coffee to help explain how a client-server model works.
+
 As this training progresses, you will continue to see comparisons between elements of a coffee shop and cloud computing functions. For example, you will explore how different AWS compute instances are kind of like the different types of coffee machines in a coffee shop. Each machine is workload-specific to better serve its customers.
+
 2. Alan Meridian
 Alan Meridian is a tech lead with AWS Training & Certification. When he is not drawing networking diagrams, Alan is likely playing ukulele or crocheting small animals. His favorite AWS service is the Amazon Virtual Private Cloud (Amazon VPC).
+
 3. Morgan Willis
 Morgan is a Principal Cloud Technologist at AWS. Outside of work, Morgan enjoys hiking, skiing, and gardening. Morgan's favorite AWS service is AWS Lambda.
+
 4. Rudy Chetty
 Rudy Chetty works with AWS Partners. He likes to make people laugh and has acted in a few short films with his producer friend. He's even been in a pizza ad. Rudy loves sports and has played just about everything, including cricket, rugby, soccer, and badminton. Rudy's favorite AWS service is Amazon Simple Storage Service (Amazon S3).
-
 
 
 
