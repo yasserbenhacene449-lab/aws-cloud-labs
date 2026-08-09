@@ -48,11 +48,13 @@ Deconstructing how operational and administrative responsibilities are split bet
 Welcome to AWS Cloud Practitioner Essentials. In this initial section of the training, you begin with a foundational understanding of cloud computing and how the cloud revolutionizes the way businesses operate. By the end of this first set of lessons, you will be familiar with the core concepts, benefits, and shared responsibilities of cloud computing.
 
 In this lessonوwill learn how to do the following:
+
 The AWS Cloud Practitioner Coffee Shop
 
 In this training, we use a coffee shop analogy to help you better understand basic cloud concepts. To explore the coffee shop and learn more about your instructors, review each of the following four numbered markers below the graphic.
 
 <img width="776" height="443" alt="image" src="https://github.com/user-attachments/assets/1014c41a-d293-4a8a-8923-e79ea988034e" />
+
 1. Coffee shop connections
 In the video, we used the example of a customer ordering a cup of coffee to help explain how a client-server model works.
 
