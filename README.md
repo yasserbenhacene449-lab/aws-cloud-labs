@@ -100,7 +100,7 @@ For instance, a company might choose to retain certain regulated legacy applicat
 
 Multi-cloud deployments can also be considered hybrid deployments.
 
- six key benefits of cloud computing, which are:
+## ⚙️ 8 six key benefits of cloud computing, which are:
 
  Trade fixed expense for variable expense
 By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
