@@ -260,8 +260,10 @@ Principal (User / Role / Federated User / Application)
 
 ---
 
+
 <img width="2400" height="1040" alt="iam-flow-diagram" src="https://github.com/user-attachments/assets/28e50d5a-b4af-4122-b581-b9ba7ee3156a" />
-<img width="1920" height="1080" alt="Screenshot 2026-08-24 182920" src="https://github.com/user-attachments/assets/68fe8a21-b0e7-400e-8860-446f5e14c2b8" />
+
+<img width="1252" height="676" alt="Screenshot 2026-08-24 201414" src="https://github.com/user-attachments/assets/3a58649d-648d-4dea-8426-001b90893160" />
 
 
 
