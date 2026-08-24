@@ -137,5 +137,131 @@ Businesses don't need to set up their own infrastructure to expand international
 <img width="930" height="348" alt="image" src="https://github.com/user-attachments/assets/eb27bbab-8205-4236-ad85-0fd0945cf836" />
 
   
+# AWS IAM (Identity and Access Management)
+
+Theoretical notes on IAM, part of a daily learning path.
+
+---
+
+## 📌 What is IAM?
+
+IAM is the AWS service responsible for controlling **who can access** your account (Authentication) and **what they're allowed to do** (Authorization). The entire AWS account trusts IAM's decisions to allow or deny any request.
+
+---
+
+## ⚙️ IAM Features
+
+| Feature | Description |
+|---|---|
+| Global Service | Not tied to a specific Region |
+| Free | No cost to use IAM itself |
+| Granular Permissions | Fine-grained control over every action and resource |
+| MFA | Supports Multi-Factor Authentication |
+| Identity Federation | Can link external identity providers (Google, AD, ...) |
+| PCI DSS Compliant | Meets payment card industry data security standards |
+| Eventually Consistent | Changes may take a moment to fully propagate |
+| AWS STS | Provides temporary security credentials |
+| Audit Logs | Identity logs can be kept for audit and compliance purposes |
+
+---
+
+## 🧩 IAM Identities
+
+### IAM User
+A person or application with permanent credentials:
+- **Username + Password** → for Console access
+- **Access Key ID + Secret Access Key** → for programmatic access (CLI / SDK / API)
+
+### IAM Group
+A collection of Users that share the same Policies at once, instead of attaching permissions to each user individually.
+
+### IAM Role
+A **temporary** identity with no permanent credentials, used by:
+- AWS services (e.g. EC2, Lambda)
+- Applications
+- Federated Users
+
+> **Core security principle**: any application running on AWS should use a Role instead of hardcoding Access Keys in code.
+
+---
+
+## 🔄 Request Flow Inside IAM
+
+```
+Principal (User / Role / Federated User / Application)
+        │
+        ▼
+  Authentication  ──►  "Who are you?"
+        │
+        ▼
+     Request
+        │
+        ▼
+  Authorization  ──►  checks Identity-based Policy + Resource-based Policy
+        │
+        ▼
+      Action  ──►  (via Console / API / CLI)
+        │
+        ▼
+    Resource  ──►  (EC2, S3, IAM, VPC ...)
+```
+
+---
+
+## 🔐 IAM User Access Methods
+
+| Access Method | Use Case | Security Note |
+|---|---|---|
+| Username + Password | Console Access | MFA should be enabled with it |
+| Access Key ID + Secret Access Key | Programmatic Access (CLI, SDK, API) | Should never be hardcoded in source code |
+
+---
+
+## ✅ Best Practices
+
+1. Lock away **Root User** credentials and remove/hide its access keys — never used for daily work.
+2. Create **individual IAM Users** instead of sharing one account.
+3. Use **AWS Managed Policies** whenever possible.
+4. Grant permissions through **Groups**, not to each user individually.
+5. Apply the **Least Privilege** principle (only the permissions strictly needed).
+6. Enforce a **strong password policy**.
+7. Enable **MFA** for the Root User and any privileged users.
+8. Use **Roles** instead of sharing credentials, especially for applications running on EC2.
+9. **Rotate** credentials regularly and remove unused ones.
+10. Use **Policy Conditions** for extra security.
+11. **Monitor activity** in the account (e.g. via CloudTrail).
+12. Review permissions using the four **Access Levels**: `List` / `Read` / `Write` / `Permissions management`.
+
+---
+
+## 🔑 Default Password Policy
+
+- Minimum length: **8 characters**.
+- Cannot be identical to the account name or email address.
+- Must contain a mix of alphanumeric and special characters.
+
+### When the policy is changed
+- New settings are enforced only the **next time** a user changes their password — existing passwords aren't invalidated immediately.
+- The **expiration period** is enforced **immediately**, even for old passwords.
+- IAM **cannot** create a lockout policy to block an account after a number of failed sign-in attempts.
+- Users can be forced to change their password at next sign-in via the **"Require password reset"** option (available from Console, CLI, or SDK).
+
+---
+
+## 🧠 Job-Ready Checklist
+
+- [ ] Why the Root User is never used for daily work
+- [ ] Difference between User / Group / Role and when to use each
+- [ ] Why Roles are the secure choice for applications (vs. Access Keys)
+- [ ] Reading an IAM Policy (JSON): `Effect / Action / Resource / Condition`
+- [ ] The Least Privilege principle and how to apply it
+- [ ] Enabling MFA and configuring a password policy
+- [ ] Rotating and removing unused credentials
+
+---
+
+<img width="2400" height="1040" alt="iam-flow-diagram" src="https://github.com/user-attachments/assets/28e50d5a-b4af-4122-b581-b9ba7ee3156a" />
+<img width="1920" height="1080" alt="Screenshot 2026-08-24 182920" src="https://github.com/user-attachments/assets/68fe8a21-b0e7-400e-8860-446f5e14c2b8" />
+
 
 
