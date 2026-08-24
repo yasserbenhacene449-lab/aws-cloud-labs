@@ -73,7 +73,6 @@ Defining cloud computing
 
 To review the definition of cloud computing, review the following four numbered markers and their descriptions below the graphic.
 
-<img width="1226" height="529" alt="image" src="https://github.com/user-attachments/assets/a77bb221-4724-4c4d-8925-bb18ef85462b" />
 
 On-demand delivery: On-demand delivery means that customers can access computing resources, such as storage or compute power, within seconds and as needed. Users can scale their resource usage up or down based on current requirements without lengthy provisioning processes.
 
@@ -83,7 +82,6 @@ On-demand delivery: On-demand delivery means that customers can access computing
 
 "with pay-as-you-go-pricing": Flexible pricing is a fundamental economic aspect of cloud computing. Users pay only for the resources they actually consume, rather than committing to fixed, long-term contracts. This usage-based pricing model offers cost efficiency and financial flexibility.
 
-<img width="1284" height="414" alt="image" src="https://github.com/user-attachments/assets/a06ad3f9-509d-4f3f-94af-9d84c7233a45" />
  cloud deployment types 
 
  In a cloud-based deployment model, you have the flexibility to migrate your existing resources to the cloud, design and build new applications within the cloud environment, or use a combination of both.
