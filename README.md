@@ -53,7 +53,6 @@ The AWS Cloud Practitioner Coffee Shop
 
 In this training, we use a coffee shop analogy to help you better understand basic cloud concepts. To explore the coffee shop and learn more about your instructors, review each of the following four numbered markers below the graphic.
 
-<img width="776" height="443" alt="image" src="https://github.com/user-attachments/assets/1014c41a-d293-4a8a-8923-e79ea988034e" />
 
 1. Coffee shop connections
 In the video, we used the example of a customer ordering a cup of coffee to help explain how a client-server model works.
@@ -103,12 +102,10 @@ Multi-cloud deployments can also be considered hybrid deployments.
  Trade fixed expense for variable expense
 By using the AWS Cloud, businesses can transition from fixed investments to variable costs. With variable costs, customer expenses are better aligned with actual usage, thus creating more financial flexibility.
 
-<img width="809" height="268" alt="image" src="https://github.com/user-attachments/assets/4c35627f-71a1-412c-89d4-0d96a4582e75" />
 
 Benefit from massive economies of scale
 Like buying a product in bulk can result in lower prices per unit, the vast global infrastructure of AWS can result in lower costs for customers. This means that AWS can be used by many organizations, from small startups to major corporations. Businesses big and small can access advanced technologies that were previously only accessible to large enterprises.
 
-<img width="761" height="352" alt="image" src="https://github.com/user-attachments/assets/c9b51b01-7edb-4768-adbc-39bcdb72ed79" />
 
 
 Stop guessing capacity
